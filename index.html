@@ -1,0 +1,17 @@
+<html>
+    <head>
+     </head>
+        <body>
+              <script data-main="/app" src="/node_modules/requirejs/require.js"></script>
+              <form id="textSampleForm" name="textSampleForm">
+                  <div ng-controller="textController">
+                      
+                      <label for="textInput">insert text:</label>
+                      <input type="text" id="textTbx" name="textTbx" ng-model="textSample">
+                      <br/> <br/>
+                      <span>the inserted values is: <span>  <br/>             
+                     <span ng-bind="textSample | EmptyText">
+                  </div>
+              </form>
+        </body>
+</html>
