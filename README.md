@@ -12,5 +12,5 @@ for a working sample download the full repo and type:
 ###Usage Samples:
 
   ```html
-  <input type="text" id="sampleData" name="sampleData" ng-model=myDate | EmptyText">
+  <input type="text" id="sampleData" name="sampleData" ng-model="myDate | EmptyText">
   ```
